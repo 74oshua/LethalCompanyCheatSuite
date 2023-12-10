@@ -77,14 +77,6 @@ namespace LethalCompanyCheatSuite
         {
             __instance.SetEnemyStunned(true);
         }
-
-        public class CustomGrabbable : GrabbableObject
-        {
-            public CustomGrabbable(Item item)
-            {
-                itemProperties = item;
-            }
-        }
     }
 
     public class ItemPatches
